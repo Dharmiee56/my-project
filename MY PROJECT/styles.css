@@ -1,0 +1,71 @@
+.top-container {
+    background-color: lavender;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.image-text {
+    color: navy;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px auto 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+.h1 
+{
+    display: block;
+    font-weight: bold;
+}
+.middle-container {
+    background-color: rgb(206, 215, 232);
+    position: relative;
+    padding-top: 100px;
+}
+.intro {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    color: blueviolet;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div {
+    display: block;
+}
+#dami-ugly-pic{
+    border-radius: 50px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: o.5fr,1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 20%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40%; 
+    /* margin: 100px auto 0 auto;  */
+    row-gap: 2rem;
+}
+.skills {
+    text-align: center;
+
+}
+.div {
+    display: block;
+}
+.contact {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+.bottom-container {
+   background-color: aliceblue color;
+   margin-top: 20px;
+}
+@media (min-width:600px) {
+    body {
+        font-size: 25px;
+    }
+}
